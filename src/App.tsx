@@ -1,14 +1,26 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import { ThemeProvider } from 'styled-components';
 
-import GlobalStyle from './styles/global';
+import GlobalStyles from '@styles/global';
+import 'react-toastify/dist/ReactToastify.css';
+import theme from '@utils/theme';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Exotic Cars</h1>
+    <BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar
+          newestOnTop
+        />
 
-      <GlobalStyle />
-    </div>
+        <GlobalStyles />
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 

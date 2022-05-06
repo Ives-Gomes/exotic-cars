@@ -7,8 +7,8 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background: #FFF;
-    color: #313136;
+    background: ${({ theme }) => theme.white};
+    color: ${({ theme }) => theme.medium_black};
     -webkit-font-smoothing: antialiased;
   }
   body, input, button {
@@ -22,6 +22,6 @@ export default createGlobalStyle`
     cursor: pointer;
   }
   input {
-    color: #656469;
+    color: ${({ theme }) => theme.light_black};
   }
 `;
