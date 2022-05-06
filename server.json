@@ -1,0 +1,228 @@
+{
+  "cars": [
+    {
+      "name": "Ferrari",
+      "model": "California",
+      "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fb/Logotipo_da_Scuderia_Ferrari.svg/1200px-Logotipo_da_Scuderia_Ferrari.svg.png",
+      "image": "https://pngimage.net/wp-content/uploads/2018/05/carro-de-lado-png-4.png",
+      "images": [
+        {
+          "image1": "https://ik.imagekit.io/2ero5nzbxo2/FILES/generations/lmkYIu7kSDwE4ZO6rSt90p0DkMin4FECmqcB2iFT.png?ik-sdk-version=php-2.0.0",
+          "image2": "https://ik.imagekit.io/2ero5nzbxo2/FILES/generations/lmkYIu7kSDwE4ZO6rSt90p0DkMin4FECmqcB2iFT.png?ik-sdk-version=php-2.0.0",
+          "image3": "https://ik.imagekit.io/2ero5nzbxo2/FILES/generations/lmkYIu7kSDwE4ZO6rSt90p0DkMin4FECmqcB2iFT.png?ik-sdk-version=php-2.0.0"
+        }
+      ],
+      "price": "725"
+    },
+    {
+      "name": "Porsche",
+      "model": "911 Turbo S",
+      "logo": "https://logodownload.org/wp-content/uploads/2021/02/porsche-logo-6.png",
+      "image": "https://tequipment-finder.porsche.com/prod/pag/tequipment/TeqBildressourcenLive.nsf/025182D61572170CC1258087002FFFBC/$file/911-turbo-s.png",
+      "images": [
+        {
+          "image1": "https://cdn.botb.com/media/39213/carousel30326.png",
+          "image2": "https://www.nicepng.com/png/full/978-9787911_new-2019-porsche-911-carrera-t-porsche-911.png",
+          "image3": "https://cdn.botb.com/media/39213/carousel30326.png"
+        }
+      ],
+      "price": "725"
+    },
+    {
+      "name": "Porsche",
+      "model": "911 Turbo S",
+      "logo": "https://logodownload.org/wp-content/uploads/2021/02/porsche-logo-6.png",
+      "image": "https://www.stuttgartporsche.com.br/pub/menu/menu_911-turbo_3_210601_5920.png",
+      "images": [
+        {
+          "image1": "https://cdn.botb.com/media/39213/carousel30326.png",
+          "image2": "https://www.nicepng.com/png/full/978-9787911_new-2019-porsche-911-carrera-t-porsche-911.png",
+          "image3": "https://cdn.botb.com/media/39213/carousel30326.png"
+        }
+      ],
+      "price": "725"
+    },
+    {
+      "name": "Porsche",
+      "model": "911 Turbo S",
+      "logo": "https://logodownload.org/wp-content/uploads/2021/02/porsche-logo-6.png",
+      "image": "https://www.porschecenterbh.com.br/uploads/669aefb6861218f72736df56da324e48.png",
+      "images": [
+        {
+          "image1": "https://cdn.botb.com/media/39213/carousel30326.png",
+          "image2": "https://www.nicepng.com/png/full/978-9787911_new-2019-porsche-911-carrera-t-porsche-911.png",
+          "image3": "https://cdn.botb.com/media/39213/carousel30326.png"
+        }
+      ],
+      "price": "725"
+    },
+    {
+      "name": "Porsche",
+      "model": "911 GT3 RS",
+      "logo": "https://logodownload.org/wp-content/uploads/2021/02/porsche-logo-6.png",
+      "image": "https://www.porschecenterfortaleza.com.br/pub/menu/menu_modelos-ma_3_211207_2351.png",
+      "images": [
+        {
+          "image1": "https://cdn.botb.com/media/39213/carousel30326.png",
+          "image2": "https://www.nicepng.com/png/full/978-9787911_new-2019-porsche-911-carrera-t-porsche-911.png",
+          "image3": "https://cdn.botb.com/media/39213/carousel30326.png"
+        }
+      ],
+      "price": "825"
+    },
+    {
+      "name": "Bentley",
+      "model": "Continental GT",
+      "logo": "https://saopaulo.bentleymotors.com/picserver1/userdata/37/14307/3FAdVwEMPE/bentley-continental-gt-speed-dealer-600x300.png",
+      "image": "https://www.mansory.com/sites/default/files/styles/car_view/public/2020-03/bentley-fs-side-view-2020.png?itok=xjLoKqWT",
+      "images": [
+        {
+          "image1": "https://saopaulo.bentleymotors.com/picserver1/userdata/37/14307/3FAdVwEMPE/d_631_mulliner%20windsor%20w12%20600x300.png",
+          "image2": "https://saopaulo.bentleymotors.com/picserver1/userdata/37/14307/3FAdVwEMPE/new-flying-spur-in-meteor-front-three-quarters-600x300.png",
+          "image3": "https://saopaulo.bentleymotors.com/picserver1/userdata/37/14307/3FAdVwEMPE/bentley-continental-gt-speed-dealer-600x300.png"
+        }
+      ],
+      "price": "825"
+    },
+    {
+      "name": "BMW",
+      "model": "M1 Competition",
+      "logo": "https://logospng.org/download/bmw/logo-bmw-2048.png",
+      "image": "https://www.bmw-munichmotors.in/sites/default/files/inline-images/M8-min_0.png",
+      "images": [
+        {
+          "image1": "https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOP5tpFZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZLNF1VgxNJ0%25lJfVZ8XJaFBVKLB9MEWO5GalL7GqGAMnQCrv0s9ODQxE4GA0ogYLcNF9OALUdP%25kIogOybQCsnvLUgChZE85GybUEqcbA89ChbNmK7zPoEqhk7BXyMLNmqn124YDyk7m5VpebYCn178zijvtE5V1PaH6LfN8zVMR1cdSkPazDxVaCdnMRaYWzeEQ5DxRte2oNZ8YWxfjpyKcPteWS6fUaKMfjedwSbXBDS6jQ%25dh22Ydw6ZuQWWptQ%25wc3ZqiifZu%25KXCEaHSc3uBrEPwJdKX324NzVTQBrXpFkaplZ24riInRdscpF4Hv5xp0KiIFJG7I%25ABHvIT91q2O2JGvloVlsgpT9GsLzZjUilo90yac2bHsLoACeVYhJ0yLOEj8eqTACygN6WsmlOECUkwet7sgNEbn%25rM10UkNh5EWhVAbnkq8NebzOh5nmPkj3agq857Mn68RUmP81D5w4xb7MPVY8A5Wh1DMztPOReqVYDafu3ajmztYRS3Xx67aftxdXrqw1RSfWQr4V%25VxdSeZ4FCuzWQdjcFs73aeZQ6KI04XRjcZwBv1srx6Kc%252GU14WwBKup9C1Fe%252B3ioEvIjup2XH3MXv63iprJXR%25GwXHi4TnsZ9%25UHNMClix2t5JUABNK%25pIYFSr1VWi",
+          "image2": "https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf7SD110tLhu1XzWVo7puMLWFmdkAj5DOP5tppZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giU2NF1VgxNJ0%25lJfVZ8XJaFBVKLB9MEWO5GalL7GqGAG6dCrv0s9O9NNE4GA0ogR%258NF9OALUx%25skIogOybW5rnvLUgChe2B5GybUEqjpE89ChbNm6ivPoEqhk7ZfHMLNmqn1cH3Dyk7m5VK8TYCn178zB9BtE5V1PaHVqfN8zVMRJzjSkPazDxTGodnMRaYWl98Q5DxRtesVZZ8YWxfj0yKcPteWS6ArnKMfjedwOrABDS6jQ%25gnQ2Ydw6ZuUAWptQ%25wc3bO9ifZu%25KXwuDHSc3uBr%25ABJdKX324uOKTQBrXpF3grlZ24riIXU1scpF4HvrSH0KiIFJG4dlABHvIT9hWrO2JGvloqSUgpT9GsLm7sUilo90y71AbHsLoAC1V6hJ0yLOEVtKqTACygNzf1mlOECUkait7sgNEbnRZD10UkNh5x6iVAbnkq8h4CzOh5nmPqFIagq857MmNNRUmP81D7Ixxb7MPVY10qWh1DMztVAaeqKD3v%25fMA8o4YKQ53nqPR9ayVJTOM",
+          "image3": "https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOP5tpFZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZLNF1VgxNJ0%25lJfVZ8XJaFBVKLB9MEWO5GalL7GqGAMnQCrv0s9ODQxE4GA0ogYLcNF9OALUdP%25kIogOybQCsnvLUgChZE85GybUEqcbA89ChbNmK7zPoEqhk7BXyMLNmqn124YDyk7m5VpebYCn178zijvtE5V1PaH6LfN8zVMR1cdSkPazDxVaCdnMRaYWzeEQ5DxRte2oNZ8YWxfjpyKcPteWS6fUaKMfjedwSbXBDS6jQ%25dh22Ydw6ZuQWWptQ%25wc3ZqiifZu%25KXCEaHSc3uBrEPwJdKX324NzVTQBrXpFkaplZ24riInRdscpF4Hv5xp0KiIFJG7I%25ABHvIT91q2O2JGvloVlsgpT9GsLzZjUilo90yac2bHsLoACeVYhJ0yLOEj8eqTACygN6WsmlOECUkwet7sgNEbn%25rM10UkNh5EWhVAbnkq8NebzOh5nmPkj3agq857Mn68RUmP81D5w4xb7MPVY8A5Wh1DMztPOReqVYDafu3ajmztYRS3Xx67aftxdXrqw1RSfWQr4V%25VxdSeZ4FCuzWQdjcFs73aeZQ6KI04XRjcZwBv1srx6Kc%252GU14WwBKup9C1Fe%252B3ioEvIjup2XH3MXv63iprJXR%25GwXHi4TnsZ9%25UHNMClix2t5JUABNK%25pIYFSr1VWi"
+        }
+      ],
+      "price": "825"
+    },
+    {
+      "name": "Alfa Romeo",
+      "model": "4C Spider",
+      "logo": "https://www.razaoautomovel.com/wp-content/uploads/2015/11/alfa-romeo.png",
+      "image": "https://i.pinimg.com/originals/ea/a8/6c/eaa86c26b5443a710d7ed8ba937f00ae.png",
+      "images": [
+        {
+          "image1": "https://cka-dash.s3.amazonaws.com/004-0120-LAR7797/model1.png",
+          "image2": "https://www.pikpng.com/pngl/b/229-2295374_new-2019-alfa-romeo-4c-spider-alfa-romeo.png",
+          "image3": "https://cka-dash.s3.amazonaws.com/004-0120-LAR7797/model1.png"
+        }
+      ],
+      "price": "825"
+    },
+    {
+      "name": "Mclaren",
+      "model": "P1 GTR",
+      "logo": "https://static.wikia.nocookie.net/formula1point5/images/7/72/Mclaren_logo.png/revision/latest?cb=20210715152245",
+      "image": "https://www.mclarensaopaulo.com.br/content/dam/mclaren-automotive/models/super-series/765lt/jellybean/765.png",
+      "images": [
+        {
+          "image1": "https://cdn.wheel-size.com/automobile/body/mclaren-570s-spider-2017-2021-1589965704.1186867.png",
+          "image2": "https://www.pngmart.com/files/9/Mclaren-PNG-Image.png",
+          "image3": "https://cdn.wheel-size.com/automobile/body/mclaren-570s-spider-2017-2021-1589965704.1186867.png"
+        }
+      ],
+      "price": "925"
+    },
+    {
+      "name": "Lamborghini",
+      "model": "Aventador",
+      "logo": "https://www.carlogos.org/car-logos/lamborghini-logo-1000x1100.png",
+      "image": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/menu/09_09/menu_huracan_evo_spider.jpg",
+      "images": [
+        {
+          "image1": "https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/stock-images/thumbnails/large/chrome/355b6daef3577fdf488496190c47ebf0.png",
+          "image2": "https://www.imagensempng.com.br/wp-content/uploads/2020/12/006.png",
+          "image3": "https://images.carandbike.com/car-images/colors/lamborghini/huracan-evo-rwd-spyder/lamborghini-huracan-evo-rwd-spyder-verde-scandal.png?v=1645178252"
+        }
+      ],
+      "price": "925"
+    },
+    {
+      "name": "Bugatti",
+      "model": "Veyron Spyder",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bugatti_logo.svg/2560px-Bugatti_logo.svg.png",
+      "image": "https://www.mansory.com/sites/default/files/styles/car_view/public/2019-04/bugatti-linea-vivere.png?itok=piBBwk-m",
+      "images": [
+        {
+          "image1": "https://ecosetting-files.com/br/image/models/ximS1CthgaOwNTN4kLuRYoP0GDeZBz.png",
+          "image2": "https://www.pngplay.com/wp-content/uploads/13/Bugatti-Veyron-Super-Sport-Transparent-Images.png",
+          "image3": "https://ecosetting-files.com/br/image/models/ximS1CthgaOwNTN4kLuRYoP0GDeZBz.png"
+        }
+      ],
+      "price": "925"
+    },
+    {
+      "name": "Chevrolet",
+      "model": "Corvette",
+      "logo": "https://cdn.freelogovectors.net/wp-content/uploads/2018/03/corvette_logo.png",
+      "image": "https://www.johnlsullivanchevrolet.com/static/dealer-17692/nav/corvette.png",
+      "images": [
+        {
+          "image1": "https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/stock-images/chrome/366572abcac1b81f22359c2f8c166500.png",
+          "image2": "https://www.pngarts.com/files/3/Chevrolet-Corvette-PNG-Free-Download.png",
+          "image3": "https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/stock-images/chrome/fb15492d54892320f40aa14b5177cd0c.png"
+        }
+      ],
+      "price": "925"
+    },
+    {
+      "name": "Ferrari",
+      "model": "California",
+      "logo": "https://upload.wikimedia.org/wikipedia/pt/thumb/f/fb/Logotipo_da_Scuderia_Ferrari.svg/1200px-Logotipo_da_Scuderia_Ferrari.svg.png",
+      "image": "https://pngimage.net/wp-content/uploads/2018/05/carro-de-lado-png-4.png",
+      "images": [
+        {
+          "image1": "https://ik.imagekit.io/2ero5nzbxo2/FILES/generations/lmkYIu7kSDwE4ZO6rSt90p0DkMin4FECmqcB2iFT.png?ik-sdk-version=php-2.0.0",
+          "image2": "https://ik.imagekit.io/2ero5nzbxo2/FILES/generations/lmkYIu7kSDwE4ZO6rSt90p0DkMin4FECmqcB2iFT.png?ik-sdk-version=php-2.0.0",
+          "image3": "https://ik.imagekit.io/2ero5nzbxo2/FILES/generations/lmkYIu7kSDwE4ZO6rSt90p0DkMin4FECmqcB2iFT.png?ik-sdk-version=php-2.0.0"
+        }
+      ],
+      "price": "725"
+    },
+    {
+      "name": "Rolls-Royce",
+      "model": "Wraith",
+      "logo": "https://vehlogo.com/wp-content/uploads/2021/03/Rolls-Royce_logo.png",
+      "image": "https://blog.paitomotors.com.br/wp-content/uploads/2018/04/01-PHANTOM.png",
+      "images": [
+        {
+          "image1": "https://i.pinimg.com/originals/ef/39/9d/ef399d76b2bcb8ed0913a215f4d835ea.png",
+          "image2": "https://w7.pngwing.com/pngs/273/96/png-transparent-rolls-royce-ghost-rolls-royce-phantom-coupe-car-rolls-royce-phantom-vii-others.png",
+          "image3": "https://www.pngplay.com/wp-content/uploads/13/Rolls-Royce-Phantom-Transparent-PNG.png"
+        }
+      ],
+      "price": "725"
+    },
+    {
+      "name": "Porsche",
+      "model": "911 Turbo S",
+      "logo": "https://logodownload.org/wp-content/uploads/2021/02/porsche-logo-6.png",
+      "image": "https://tequipment-finder.porsche.com/prod/pag/tequipment/TeqBildressourcenLive.nsf/025182D61572170CC1258087002FFFBC/$file/911-turbo-s.png",
+      "images": [
+        {
+          "image1": "https://cdn.botb.com/media/39213/carousel30326.png",
+          "image2": "https://www.nicepng.com/png/full/978-9787911_new-2019-porsche-911-carrera-t-porsche-911.png",
+          "image3": "https://cdn.botb.com/media/39213/carousel30326.png"
+        }
+      ],
+      "price": "725"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "model": "AMG GTS",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mercedes-Logo.svg/800px-Mercedes-Logo.svg.png",
+      "image": "https://www.milesandmiles.co.uk/pages/extranet/160/1440674975-Mercedes-amg-gt-silver.png",
+      "images": [
+        {
+          "image1": "https://purepng.com/public/uploads/large/51506279807py9khwbwpshea5scm2q4q5edaaku996nntddwty7jwtfdlz2uewvkc6bk3jko9shdkkzf9nelnn0q9tyrticjz8tx49hjveuy44a.png",
+          "image2": "https://65e81151f52e248c552b-fe74cd567ea2f1228f846834bd67571e.ssl.cf1.rackcdn.com/ldm-images/2021-Mercedes-Benz-AMG-GT-color-Obsidian-Black-Metallic.png",
+          "image3": "https://chauffeuredlimodubai.com/uploads/1/2019-11/mercedes_amg_gts_1.png"
+        }
+      ],
+      "price": "725"
+    }
+  ]
+}
