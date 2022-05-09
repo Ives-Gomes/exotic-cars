@@ -24,4 +24,16 @@ export default createGlobalStyle`
   input {
     color: ${({ theme }) => theme.light_black};
   }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.light_black};
+    border-radius: 10px;
+  }
 `;

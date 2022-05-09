@@ -8,14 +8,14 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  background: ${({ theme }) => theme.gray};
+  background: ${({ theme }) => theme.grey};
   border-radius: 100px;
 
   svg {
     width: 20px;
     height: 20px;
 
-    color: ${({ theme }) => theme.dark_gray};
+    color: ${({ theme }) => theme.dark_grey};
   }
 
   @media (max-width: 768px) {

@@ -9,6 +9,7 @@ import GlobalStyles from '@styles/global';
 import 'react-toastify/dist/ReactToastify.css';
 
 import theme from '@utils/theme';
+import RoutesComponent from './routes';
 
 const App: React.FC = () => (
   <BrowserRouter>
@@ -21,6 +22,8 @@ const App: React.FC = () => (
       />
 
       <Header />
+
+      <RoutesComponent />
 
       <GlobalStyles />
     </ThemeProvider>
