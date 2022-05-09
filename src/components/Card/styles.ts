@@ -21,6 +21,11 @@ export const Container = styled.div`
       color: ${({ theme }) => theme.medium_black};
     }
   }
+
+  @media (max-width: 425px) {
+    margin: 0;
+    margin-bottom: 20px;
+  }
 `;
 
 export const TitleContent = styled.div`

@@ -9,8 +9,21 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
 
-  margin-top: 50px;
+  margin-top: 30px;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 425px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const Fab = styled.div`
