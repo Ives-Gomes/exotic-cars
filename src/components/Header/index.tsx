@@ -2,7 +2,9 @@ import React from 'react';
 
 import { Filter } from '@components/index';
 
-import { Container, Title } from './styles';
+import {
+  Button, ButtonsContainer, Container, Title,
+} from './styles';
 
 const Header: React.FC = () => (
   <Container>
@@ -18,10 +20,20 @@ const Header: React.FC = () => (
       <Filter />
     </div>
 
-    <div>
-      <button type="button">Registrar</button>
-      <button type="button">Entrar</button>
-    </div>
+    <ButtonsContainer>
+      <Button
+        type="button"
+        hasBorder={false}
+      >
+        Registrar
+      </Button>
+      <Button
+        type="button"
+        hasBorder
+      >
+        Entrar
+      </Button>
+    </ButtonsContainer>
   </Container>
 );
 

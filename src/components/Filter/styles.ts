@@ -17,6 +17,14 @@ export const Container = styled.div`
 
     color: ${({ theme }) => theme.dark_gray};
   }
+
+  @media (max-width: 768px) {
+    width: 300px;
+  }
+
+  @media (max-width: 425px) {
+    display: none;
+  }
 `;
 
 export const LocationContainer = styled.div`
@@ -35,6 +43,10 @@ export const Texts = styled.p`
   color: ${({ theme }) => theme.light_black};
 
   margin-left: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 8px;
+  }
 `;
 
 export const Dates = styled.div`
@@ -66,5 +78,9 @@ export const Search = styled.div`
 
   svg {
     color: ${({ theme }) => theme.blue};
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 10px;
   }
 `;
