@@ -26,7 +26,10 @@ const Home = () => {
     <Container>
       <Content>
         {cars.map((car) => (
-          <Card key={car.id} car={car} />
+          <Card
+            key={car.id}
+            car={car}
+          />
         ))}
       </Content>
 

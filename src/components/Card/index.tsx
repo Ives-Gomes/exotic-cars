@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
 import { toast } from 'react-toastify';
 
@@ -23,12 +24,18 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ car }: CardProps) => {
+  const navigate = useNavigate();
+
   const moreButtonHandler = () => {
     toast.info('Estamos trabalhando nessa funcionalidade e logo ela estará disponível!');
   };
 
+  const detailHandler = () => {
+    navigate('/details', { state: { car } });
+  };
+
   return (
-    <Container>
+    <Container onClick={() => detailHandler()}>
       <TitleContent>
         <div>
           <Title>{car.name}</Title>

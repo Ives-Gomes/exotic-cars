@@ -1,4 +1,4 @@
 import Home from './Home';
+import Details from './Details';
 
-// eslint-disable-next-line import/prefer-default-export
-export { Home };
+export { Home, Details };
