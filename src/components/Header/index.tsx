@@ -1,40 +1,49 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { Filter } from '@components/index';
 
 import {
-  Button, ButtonsContainer, Container, Title,
+  Button,
+  ButtonsContainer,
+  Container,
+  HeaderContainer,
+  Title,
 } from './styles';
 
-const Header: React.FC = () => (
-  <Container>
-    <div>
-      <Title>
-        Exotic
-        {' '}
-        <span>Cars</span>
-      </Title>
-    </div>
+const Header: React.FC = () => {
+  const navigate = useNavigate();
 
-    <div>
-      <Filter />
-    </div>
+  return (
+    <Container>
+      <HeaderContainer onClick={() => navigate('/')}>
+        <Title>
+          Exotic
+          {' '}
+          <span>Cars</span>
+        </Title>
+      </HeaderContainer>
 
-    <ButtonsContainer>
-      <Button
-        type="button"
-        hasBorder={false}
-      >
-        Registrar
-      </Button>
-      <Button
-        type="button"
-        hasBorder
-      >
-        Entrar
-      </Button>
-    </ButtonsContainer>
-  </Container>
-);
+      <div>
+        <Filter />
+      </div>
+
+      <ButtonsContainer>
+        <Button
+          type="button"
+          hasBorder={false}
+        >
+          Registrar
+        </Button>
+        <Button
+          type="button"
+          hasBorder
+        >
+          Entrar
+        </Button>
+      </ButtonsContainer>
+    </Container>
+  );
+};
 
 export default Header;

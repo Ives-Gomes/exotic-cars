@@ -42,7 +42,7 @@ const Card: React.FC<CardProps> = ({ car }: CardProps) => {
           <Subtitle>{car.model}</Subtitle>
         </div>
 
-        <DotsContent onClick={() => moreButtonHandler()}>
+        <DotsContent onMouseEnter={() => moreButtonHandler()}>
           <BiDotsHorizontalRounded />
         </DotsContent>
       </TitleContent>

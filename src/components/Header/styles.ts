@@ -22,6 +22,10 @@ export const Container = styled.div`
   }
 `;
 
+export const HeaderContainer = styled.div`
+  cursor: pointer;
+`;
+
 export const Title = styled.h1`
   font-size: 24px;
 
