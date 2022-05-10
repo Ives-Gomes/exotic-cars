@@ -44,7 +44,34 @@ export const SectionContent = styled.div`
   align-items: center;
 `;
 
+export const ImageContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const CarImage = styled.img`
   width: 50vw;
   height: 60vh;
+`;
+
+export const Color = styled.p`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 32px;
+  font-weight: 400;
+
+  color: ${({ theme }) => theme.medium_black};
+
+  margin-bottom: 15%;
+
+  span {
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
 `;
