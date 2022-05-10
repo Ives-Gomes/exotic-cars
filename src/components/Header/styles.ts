@@ -13,6 +13,8 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  position: relative;
+
   box-shadow: 2px 2px 10px ${({ theme }) => theme.medium_white};
 
   padding: 0 10%;

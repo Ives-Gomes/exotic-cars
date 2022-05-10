@@ -4,12 +4,17 @@ export interface Car {
   model: string;
   logo: string;
   image: string;
-  images: [
-    {
-      image1: string;
-      image2: string;
-      image3: string;
-    }
-  ],
+  image1: {
+    url: string;
+    color: string;
+  },
+  image2: {
+    url: string;
+    color: string;
+  },
+  image3: {
+    url: string;
+    color: string;
+  },
   price: number;
 }

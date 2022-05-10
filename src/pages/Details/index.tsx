@@ -1,17 +1,45 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 
+import { convertPrice } from '@shared/helpers/convertPrice';
+
+import {
+  CarImage,
+  Container,
+  HeaderContent,
+  Logo,
+  Price,
+  SectionContent,
+  Title,
+} from './styles';
+
 const Details = () => {
-  const { state } = useLocation();
+  const { state }: any = useLocation();
 
-  useEffect(() => {
-    const { car }: any = state;
-
-    console.log(car);
-  }, []);
+  const { car }: any = state;
 
   return (
-    <div />
+    <Container>
+      <HeaderContent>
+        <Logo src={car?.logo} alt={car?.name} />
+
+        <div>
+          <Title>
+            {`${car?.name} ${car?.model}`}
+          </Title>
+
+          <Price>{`${convertPrice(car?.price)}/dia`}</Price>
+        </div>
+      </HeaderContent>
+
+      <SectionContent>
+        <button type="button">Voltar ao catálogo</button>
+
+        <CarImage src={car.image2.url} alt={car.name} />
+
+        <p>01 blue</p>
+      </SectionContent>
+    </Container>
   );
 };
 
