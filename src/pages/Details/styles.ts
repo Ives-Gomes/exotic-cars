@@ -12,6 +12,10 @@ export const HeaderContent = styled.div`
   display: flex;
 
   position: absolute;
+
+  @media (max-width: 425px) {
+    margin-top: 80px;
+  }
 `;
 
 export const Logo = styled.img`
@@ -28,6 +32,10 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.medium_black};
 
   margin-bottom: 10px;
+
+  @media (max-width: 425px) {
+    font-size: 30px;
+  }
 `;
 
 export const Price = styled.h2`
@@ -35,12 +43,20 @@ export const Price = styled.h2`
   font-weight: 400;
 
   color: ${({ theme }) => theme.medium_black};
+
+  @media (max-width: 425px) {
+    font-size: 20px;
+  }
 `;
 
 export const SectionContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const ImageContent = styled.div`
@@ -48,11 +64,20 @@ export const ImageContent = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 425px) {
+    margin-top: 140px;
+  }
 `;
 
 export const CarImage = styled.img`
   width: 50vw;
   height: 60vh;
+
+  @media (max-width: 425px) {
+    width: 100%;
+    height: 40vh;
+  }
 `;
 
 export const Color = styled.p`
@@ -72,6 +97,11 @@ export const Color = styled.p`
     font-size: 42px;
     font-family: sans-serif;
     font-weight: 600;
+  }
+
+  @media (max-width: 425px) {
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 `;
 
