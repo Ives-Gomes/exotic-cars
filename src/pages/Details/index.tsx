@@ -1,15 +1,22 @@
-import React from 'react';
+/* eslint-disable react/no-unstable-nested-components */
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable operator-linebreak */
+
+import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
+import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import { toast } from 'react-toastify';
+import Slider from 'react-slick';
 
-import { Button } from '@components/index';
+import { Button, CarouselButton } from '@components/index';
 
 import { convertPrice } from '@shared/helpers/convertPrice';
 
 import theme from '@utils/theme';
 import {
   CarImage,
+  CarouselContainer,
   Color,
   Container,
   HeaderContent,
@@ -24,10 +31,45 @@ const Details = () => {
   const navigate = useNavigate();
   const { state }: any = useLocation();
 
+  const [currentCar, setCurrentCar] = useState('image2');
+  const [currentCarIndex, setCurrentCarIndex] = useState(2);
+
   const { car }: any = state;
 
   const showAlert = () => {
     toast.info('Estamos trabalhando nessa funcionalidade e logo ela estará disponível!');
+  };
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 1,
+    centerMode: true,
+    centerPadding: '1px',
+    afterChange: (currentSlide: number) => {
+      setCurrentCar(`image${currentSlide + 1}`);
+      setCurrentCarIndex(currentSlide + 1);
+    },
+    nextArrow: <CarouselButton><BsArrowRight size={18} /></CarouselButton>,
+    prevArrow: <CarouselButton><BsArrowLeft size={18} /></CarouselButton>,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -60,7 +102,10 @@ const Details = () => {
         </Button>
 
         <ImageContent>
-          <CarImage src={car.image2.url} alt={car.name} />
+          <CarImage
+            src={car[currentCar].url}
+            alt={car.name}
+          />
 
           <Button
             background={theme.medium_black}
@@ -69,7 +114,7 @@ const Details = () => {
             type="button"
             onClick={() => showAlert()}
             style={{
-              marginTop: 20,
+              marginTop: 5,
             }}
           >
             Agende agora
@@ -81,11 +126,21 @@ const Details = () => {
         </ImageContent>
 
         <Color>
-          <span>01</span>
+          <span>{currentCarIndex}</span>
           {' '}
-          blue
+          {car[currentCar].color}
         </Color>
       </SectionContent>
+
+      <CarouselContainer>
+        <Slider {...settings}>
+          <img src={car.image1.url} alt={car.name} />
+          <img src={car.image2.url} alt={car.name} />
+          <img src={car.image3.url} alt={car.name} />
+          <img src={car.image4.url} alt={car.name} />
+          <img src={car.image5.url} alt={car.name} />
+        </Slider>
+      </CarouselContainer>
     </Container>
   );
 };

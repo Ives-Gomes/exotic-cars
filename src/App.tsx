@@ -7,6 +7,8 @@ import { Header } from '@components/index';
 
 import GlobalStyles from '@styles/global';
 import 'react-toastify/dist/ReactToastify.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import theme from '@utils/theme';
 import RoutesComponent from './routes';

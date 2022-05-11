@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
 
   background: transparent linear-gradient(125deg, #FFFFFF 0%, #D8D7D7 100%) 0% 0% no-repeat padding-box;
 
@@ -74,4 +73,9 @@ export const Color = styled.p`
     font-family: sans-serif;
     font-weight: 600;
   }
+`;
+
+export const CarouselContainer = styled.div`
+  width: 100%;
+  height: 200px;
 `;
