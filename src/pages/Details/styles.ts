@@ -1,7 +1,16 @@
 import styled from 'styled-components';
 
+interface CarrousselProps {
+  carLength: number;
+}
+
 export const Container = styled.div`
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   background: transparent linear-gradient(125deg, #FFFFFF 0%, #D8D7D7 100%) 0% 0% no-repeat padding-box;
 
@@ -130,9 +139,8 @@ export const Color = styled.p`
   }
 `;
 
-export const CarouselContainer = styled.div`
-  width: 100%;
-  height: 220px;
+export const CarouselContainer = styled.div<CarrousselProps>`
+  width: ${({ carLength }) => (carLength === 1 ? '35%' : '100%')};
 
   margin-top: 20px;
 
