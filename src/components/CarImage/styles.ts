@@ -7,6 +7,10 @@ export const Container = styled.div`
 
   padding: 20px;
 
+  transition: margin-top .2s;
+
+  margin-top: 20px;
+
   @media (max-width: 320px) {
     padding: 10px;
   }

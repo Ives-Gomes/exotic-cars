@@ -8,7 +8,7 @@ interface CarImageProps {
 }
 
 const CarImageComponent: React.FC<CarImageProps> = ({ src, alt }: CarImageProps) => (
-  <Container>
+  <Container className="containerImage">
     <Background className="backgroundImage" />
 
     <Image className="carImage" src={src} alt={alt} />

@@ -121,7 +121,9 @@ export const Color = styled.p`
 
 export const CarouselContainer = styled.div`
   width: 100%;
-  height: 200px;
+  height: 220px;
+
+  margin-top: 20px;
 
   .slick-center {
     .backgroundImage {
@@ -131,10 +133,14 @@ export const CarouselContainer = styled.div`
 
     width: 100%;
     height: 100%;
+
+    .containerImage {
+      margin-top: 0px;
+    }
   }
 
   .slick-active {
     width: 60%;
-    height: 60%;
+    height: 50%;
   }
 `;
