@@ -46,7 +46,7 @@ const Details = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 1,
+    initialSlide: 2,
     centerMode: true,
     centerPadding: '1px',
     afterChange: (currentSlide: number) => {
@@ -126,8 +126,7 @@ const Details = () => {
         </ImageContent>
 
         <Color>
-          <span>{currentCarIndex}</span>
-          {' '}
+          <span>{`0${currentCarIndex}`}</span>
           {car[currentCar].color}
         </Color>
       </SectionContent>
@@ -137,8 +136,6 @@ const Details = () => {
           <img src={car.image1.url} alt={car.name} />
           <img src={car.image2.url} alt={car.name} />
           <img src={car.image3.url} alt={car.name} />
-          <img src={car.image4.url} alt={car.name} />
-          <img src={car.image5.url} alt={car.name} />
         </Slider>
       </CarouselContainer>
     </Container>
