@@ -4,6 +4,7 @@ import Card from './Card';
 import CarAnimationComponent from './Animation/CarAnimation';
 import Button from './Button';
 import CarouselButton from './CarouselButton';
+import CarImageComponent from './CarImage';
 
 export {
   Header,
@@ -12,4 +13,5 @@ export {
   CarAnimationComponent,
   Button,
   CarouselButton,
+  CarImageComponent,
 };

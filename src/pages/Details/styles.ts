@@ -15,6 +15,10 @@ export const HeaderContent = styled.div`
 
   @media (max-width: 425px) {
     margin-top: 80px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -23,6 +27,10 @@ export const Logo = styled.img`
   height: 100px;
 
   margin-right: 20px;
+
+  @media (max-width: 425px) {
+    margin-bottom: 20px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -35,6 +43,8 @@ export const Title = styled.h2`
 
   @media (max-width: 425px) {
     font-size: 30px;
+
+    width: 215px;
   }
 `;
 
@@ -46,6 +56,8 @@ export const Price = styled.h2`
 
   @media (max-width: 425px) {
     font-size: 20px;
+
+    margin-bottom: 30px;
   }
 `;
 
@@ -66,7 +78,7 @@ export const ImageContent = styled.div`
   align-items: center;
 
   @media (max-width: 425px) {
-    margin-top: 140px;
+    margin-top: 250px;
   }
 `;
 
@@ -85,6 +97,8 @@ export const Color = styled.p`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  max-width: 150px;
 
   font-size: 32px;
   font-weight: 400;
@@ -108,4 +122,19 @@ export const Color = styled.p`
 export const CarouselContainer = styled.div`
   width: 100%;
   height: 200px;
+
+  .slick-center {
+    .backgroundImage {
+      background: rgb(221,209,239);
+      background: linear-gradient(228deg, rgba(221,209,239,1) 0%, rgba(185,186,242,1) 100%);
+    }
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .slick-active {
+    width: 60%;
+    height: 60%;
+  }
 `;

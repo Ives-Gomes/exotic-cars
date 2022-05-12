@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-return */
 /* eslint-disable react/no-unstable-nested-components */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable operator-linebreak */
@@ -9,7 +10,7 @@ import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import { toast } from 'react-toastify';
 import Slider from 'react-slick';
 
-import { Button, CarouselButton } from '@components/index';
+import { Button, CarouselButton, CarImageComponent } from '@components/index';
 
 import { convertPrice } from '@shared/helpers/convertPrice';
 
@@ -46,12 +47,12 @@ const Details = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 2,
+    initialSlide: 1,
     centerMode: true,
     centerPadding: '1px',
     afterChange: (currentSlide: number) => {
-      setCurrentCar(`image${currentSlide + 1}`);
-      setCurrentCarIndex(currentSlide + 1);
+      setCurrentCar(`image${currentSlide >= 3 ? currentSlide - 2 : currentSlide + 1}`);
+      setCurrentCarIndex(currentSlide >= 3 ? currentSlide - 2 : currentSlide + 1);
     },
     nextArrow: <CarouselButton><BsArrowRight size={18} /></CarouselButton>,
     prevArrow: <CarouselButton><BsArrowLeft size={18} /></CarouselButton>,
@@ -66,7 +67,6 @@ const Details = () => {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
         },
       },
     ],
@@ -133,9 +133,12 @@ const Details = () => {
 
       <CarouselContainer>
         <Slider {...settings}>
-          <img src={car.image1.url} alt={car.name} />
-          <img src={car.image2.url} alt={car.name} />
-          <img src={car.image3.url} alt={car.name} />
+          <CarImageComponent src={car.image1.url} alt={car.name} />
+          <CarImageComponent src={car.image2.url} alt={car.name} />
+          <CarImageComponent src={car.image3.url} alt={car.name} />
+          <CarImageComponent src={car.image1.url} alt={car.name} />
+          <CarImageComponent src={car.image2.url} alt={car.name} />
+          <CarImageComponent src={car.image3.url} alt={car.name} />
         </Slider>
       </CarouselContainer>
     </Container>

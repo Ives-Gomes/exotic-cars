@@ -8,23 +8,15 @@
       "image": "https://www.webmotors.com.br/imagens/prod/346273/FERRARI_LAFERRARI_6.3_V12_HYBRID_F1DCT_34627320491610439.png?s=fill&w=165&h=110&q=70&t=true",
       "image1": {
         "url": "https://images.drive.com.au/driveau/image/upload/c_fill,h_1080,w_1920/q_auto:eco/f_auto/v1//vehicles/showrooms/models/ferrari-f8-tributo?_a=AAClqGX",
-        "color": "Branco"
+        "color": "Vermelho"
       },
       "image2": {
-        "url": "https://images.drive.com.au/driveau/image/upload/c_fill,h_1080,w_1920/q_auto:eco/f_auto/v1//vehicles/showrooms/models/ferrari-f8-tributo?_a=AAClqGX",
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/97323a68183515.5b54521133cb7.png",
         "color": "Vermelho"
       },
       "image3": {
-        "url": "https://images.drive.com.au/driveau/image/upload/c_fill,h_1080,w_1920/q_auto:eco/f_auto/v1//vehicles/showrooms/models/ferrari-f8-tributo?_a=AAClqGX",
-        "color": "Verde"
-      },
-      "image4": {
-        "url": "https://images.drive.com.au/driveau/image/upload/c_fill,h_1080,w_1920/q_auto:eco/f_auto/v1//vehicles/showrooms/models/ferrari-f8-tributo?_a=AAClqGX",
-        "color": "Azul"
-      },
-      "image5": {
-        "url": "https://images.drive.com.au/driveau/image/upload/c_fill,h_1080,w_1920/q_auto:eco/f_auto/v1//vehicles/showrooms/models/ferrari-f8-tributo?_a=AAClqGX",
-        "color": "Amarelo"
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ee5d6668183515.5b54521135fe2.png",
+        "color": "Vermelho"
       },
       "price": "3742.81"
     },
@@ -46,14 +38,6 @@
         "url": "https://files.porsche.com/filestore/image/multimedia/none/pa-tu-modelimage-sideshot/model/0d290e38-c3da-11e9-80c4-005056bbdc38/porsche-model.png",
         "color": "Verde"
       },
-      "image4": {
-        "url": "https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/model/765dfc51-51bc-11eb-80d1-005056bbdc38/porsche-model.png",
-        "color": "Azul"
-      },
-      "image5": {
-        "url": "https://files.porsche.com/filestore/image/multimedia/none/982-718gt4-modelimage-sideshot/model/5b3fd684-85f2-11e9-80c4-005056bbdc38/porsche-model.png",
-        "color": "Amarelo"
-      },
       "price": "3742.81"
     },
     {
@@ -73,14 +57,6 @@
       "image3": {
         "url": "https://tequipment-finder.porsche.com/prod/pag/tequipment/TeqBildressourcenLive.nsf/025182D61572170CC1258087002FFFBC/$file/911-turbo-s.png",
         "color": "Branco"
-      },
-      "image4": {
-        "url": "https://files.porsche.com/filestore/image/multimedia/none/pa-tu-modelimage-sideshot/model/0d290e38-c3da-11e9-80c4-005056bbdc38/porsche-model.png",
-        "color": "Verde"
-      },
-      "image5": {
-        "url": "https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/model/765dfc51-51bc-11eb-80d1-005056bbdc38/porsche-model.png",
-        "color": "Azul"
       },
       "price": "3742.81"
     },
@@ -102,14 +78,6 @@
         "url": "https://tequipment-finder.porsche.com/prod/pag/tequipment/TeqBildressourcenLive.nsf/025182D61572170CC1258087002FFFBC/$file/911-turbo-s.png",
         "color": "Branco"
       },
-      "image4": {
-        "url": "https://files.porsche.com/filestore/image/multimedia/none/pa-tu-modelimage-sideshot/model/0d290e38-c3da-11e9-80c4-005056bbdc38/porsche-model.png",
-        "color": "Verde"
-      },
-      "image5": {
-        "url": "https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/model/765dfc51-51bc-11eb-80d1-005056bbdc38/porsche-model.png",
-        "color": "Azul"
-      },
       "price": "3742.81"
     },
     {
@@ -130,14 +98,6 @@
         "url": "https://www.porschecenterbh.com.br/uploads/669aefb6861218f72736df56da324e48.png",
         "color": "Cinza"
       },
-      "image4": {
-        "url": "https://tequipment-finder.porsche.com/prod/pag/tequipment/TeqBildressourcenLive.nsf/025182D61572170CC1258087002FFFBC/$file/911-turbo-s.png",
-        "color": "Branco"
-      },
-      "image5": {
-        "url": "https://files.porsche.com/filestore/image/multimedia/none/pa-tu-modelimage-sideshot/model/0d290e38-c3da-11e9-80c4-005056bbdc38/porsche-model.png",
-        "color": "Verde"
-      },
       "price": "4259.06"
     },
     {
@@ -148,15 +108,15 @@
       "image": "https://www.mansory.com/sites/default/files/styles/car_view/public/2020-03/bentley-fs-side-view-2020.png?itok=xjLoKqWT",
       "image1": {
         "url": "https://supercarrides.com.au/wp-content/uploads/2021/05/Bentley-GT.png",
-        "color": "Vermelho"
+        "color": "Preto"
       },
       "image2": {
         "url": "https://mtnlimousine.com/wp-content/uploads/2021/09/bentley-white-png.png",
-        "color": "Azul"
+        "color": "Branco"
       },
       "image3": {
         "url": "https://mtnlimousine.com/wp-content/uploads/2021/09/bentley-white-png.png",
-        "color": "Amarelo"
+        "color": "Branco"
       },
       "price": "4259.06"
     },
@@ -167,16 +127,16 @@
       "logo": "https://logospng.org/download/bmw/logo-bmw-2048.png",
       "image": "https://www.bmw.com.br/content/dam/bmw/common/all-models/1-series/5-door/2019/navigation/bmw-1-series-modelfinder.png",
       "image1": {
-        "url": "https://www.bmwbarigui.com.br/wp-content/uploads/2021/05/x5e.png",
-        "color": "Vermelho"
+        "url": "https://vexstockimages.fastly.carvana.io/stockimages/2014_BMW_7%20SERIES_750I%20SEDAN%204D_WHITE_stock_desktop_1920x1080.png?v=1645465232.867",
+        "color": "Branco"
       },
       "image2": {
         "url": "https://edge.pxcrush.net/cars/dealer/6wzllpbe157qk65hlu7u3nlz5.jpg?pxc_expires=20220920215911&pxc_clear=1&pxc_signature=4f9fea81cab02beda0bff6265df5220f",
-        "color": "Azul"
+        "color": "Preto"
       },
       "image3": {
         "url": "https://edge.pxcrush.net/cars/dealer/6mbbvexrv9uhep590uq4mef2l.jpg?pxc_expires=20220729210925&pxc_clear=1&pxc_signature=585d95ee508ae707afde5714140625b4",
-        "color": "Amarelo"
+        "color": "Branco"
       },
       "price": "4259.06"
     },
@@ -192,11 +152,11 @@
       },
       "image2": {
         "url": "https://www.motorionline.com/wp-content/gallery/alfa-romeo-gtv-2020-rendering/Alfa-Romeo-GVT-2020-Rendering-4.png",
-        "color": "Azul"
+        "color": "Vermelho"
       },
       "image3": {
-        "url": "https://www.pngmart.com/files/9/Red-Alfa-Romeo-Transparent-Background.png",
-        "color": "Amarelo"
+        "url": "https://vexstockimages.fastly.carvana.io/stockimages/2019_ALFA%20ROMEO_GIULIA_SEDAN%204D_RED_stock_desktop_1920x1080.png?v=1645578675.645",
+        "color": "Vermelho"
       },
       "price": "4259.06"
     },
@@ -208,7 +168,7 @@
       "image": "https://www.webmotors.com.br/imagens/prod/347708/MCLAREN_720S_4.0_V8_TURBO_GASOLINA_SSG_34770801222523512.webp?s=fill&w=440&h=330&q=80&t=true",
       "image1": {
         "url": "https://supercarrides.com.au/wp-content/uploads/2021/05/McLaren-570s.png",
-        "color": "Vermelho"
+        "color": "Laranja"
       },
       "image2": {
         "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/2ab75a27697031.5636945ea26f9.png",
@@ -216,7 +176,7 @@
       },
       "image3": {
         "url": "https://ecosetting-files.com/pt/image/models/elUCEvqKPNh0OcvViz9DlB0g4D5dw2VUYgrgqxWa.png",
-        "color": "Amarelo"
+        "color": "Branco"
       },
       "price": "4775.31"
     },
@@ -228,15 +188,15 @@
       "image": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/aventador/ultimae_roadster/menu_aven_ulti_rds.png",
       "image1": {
         "url": "https://www.imagensempng.com.br/wp-content/uploads/2020/12/0010.png",
-        "color": "Vermelho"
+        "color": "Cinza"
       },
       "image2": {
         "url": "https://supercarrides.com.au/wp-content/uploads/2020/10/Lamborghini-Huracan-1.png",
-        "color": "Azul"
+        "color": "Vermelho"
       },
       "image3": {
         "url": "https://supercarrides.com.au/wp-content/uploads/2021/05/Lamborghini-Aventador.png",
-        "color": "Amarelo"
+        "color": "Preto"
       },
       "price": "4775.31"
     },
@@ -247,16 +207,16 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bugatti_logo.svg/2560px-Bugatti_logo.svg.png",
       "image": "https://www.mansory.com/sites/default/files/styles/car_view/public/2019-04/bugatti-linea-vivere.png?itok=piBBwk-m",
       "image1": {
-        "url": "https://www.pngplay.com/wp-content/uploads/13/Bugatti-Veyron-Background-PNG-Image.png",
-        "color": "Vermelho"
+        "url": "https://1000logos.net/wp-content/uploads/2020/10/Bugatti-Chiron-Super-Sport-300.png",
+        "color": "Preto"
       },
       "image2": {
-        "url": "https://www.pngplay.com/wp-content/uploads/13/Bugatti-Veyron-Background-PNG-Image.png",
+        "url": "https://i.pinimg.com/originals/e9/34/ac/e934ac022c9ecf2dadf6954610176627.png",
         "color": "Azul"
       },
       "image3": {
-        "url": "https://www.pngplay.com/wp-content/uploads/13/Bugatti-Veyron-Background-PNG-Image.png",
-        "color": "Amarelo"
+        "url": "https://1000logos.net/wp-content/uploads/2020/10/Bugatti-Chiron-Super-Sport-300.png",
+        "color": "Preto"
       },
       "price": "4775.31"
     },
@@ -268,15 +228,15 @@
       "image": "https://www.webmotors.com.br/imagens/prod/346106/CHEVROLET_CORVETTE_6.2_V8_LT4_GASOLINA_Z06_AUTOMATICO_34610613505636972.png?s=fill&w=440&h=330&q=80&t=true",
       "image1": {
         "url": "https://img.wallpapersafari.com/desktop/1920/1080/34/82/ZUO8D0.png",
-        "color": "Vermelho"
+        "color": "Verde"
       },
       "image2": {
         "url": "https://vexstockimages.fastly.carvana.io/stockimages/2017_CHEVROLET_CORVETTE_STINGRAY%20COUPE%202D_RED_stock_desktop_1920x1080.png?v=1645807901.731",
-        "color": "Azul"
+        "color": "Vermelho"
       },
       "image3": {
         "url": "https://vexstockimages.fastly.carvana.io/stockimages/2019_CHEVROLET_CORVETTE_STINGRAY%20COUPE%202D_BLACK_stock_desktop_1920x1080.png?v=1651502299.003",
-        "color": "Amarelo"
+        "color": "Branco"
       },
       "price": "4775.31"
     },
@@ -291,12 +251,12 @@
         "color": "Vermelho"
       },
       "image2": {
-        "url": "https://images.drive.com.au/driveau/image/upload/c_fill,h_1080,w_1920/q_auto:eco/f_auto/v1//vehicles/showrooms/models/ferrari-f8-tributo?_a=AAClqGX",
-        "color": "Azul"
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/97323a68183515.5b54521133cb7.png",
+        "color": "Vermelho"
       },
       "image3": {
-        "url": "https://images.drive.com.au/driveau/image/upload/c_fill,h_1080,w_1920/q_auto:eco/f_auto/v1//vehicles/showrooms/models/ferrari-f8-tributo?_a=AAClqGX",
-        "color": "Amarelo"
+        "url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ee5d6668183515.5b54521135fe2.png",
+        "color": "Vermelho"
       },
       "price": "3742.81"
     },
@@ -308,15 +268,15 @@
       "image": "https://www.webmotors.com.br/imagens/prod/348880/ROLLSROYCE_GHOST_6.8_V12_TURBO_GASOLINA_AUTOMATICO_34888014552705447.webp?s=fill&w=236&h=135&q=70&t=true",
       "image1": {
         "url": "https://mtnlimousine.com/wp-content/uploads/2021/09/rolls-royce-white-png.png",
-        "color": "Vermelho"
+        "color": "Branco"
       },
       "image2": {
         "url": "https://images.squarespace-cdn.com/content/v1/5da1ad012526b10b2123b90a/1573146293026-IVARH8NGAG35C2ZPIWPR/RR+GHOST+%281%29.png",
-        "color": "Azul"
+        "color": "Preto"
       },
       "image3": {
         "url": "https://images.squarespace-cdn.com/content/v1/5da1ad012526b10b2123b90a/1574468623299-UF64JPWET784HA4BZ9N1/RRPhantom+chauffeur.png",
-        "color": "Amarelo"
+        "color": "Branco com preto"
       },
       "price": "3742.81"
     },
@@ -348,15 +308,15 @@
       "image": "https://www.webmotors.com.br/imagens/prod/348382/MERCEDESBENZ_AMG_GT_43_3.0_EQ_BOOST_HIBRIDO_9GTRONIC_34838215452498055.png?s=fill&w=440&h=330&q=80&t=true",
       "image1": {
         "url": "https://i.pinimg.com/originals/4e/0b/aa/4e0baa617a6372c00faebc8b6ba64a36.png",
-        "color": "Vermelho"
+        "color": "Preto"
       },
       "image2": {
         "url": "https://www.dimes.com/wp-content/uploads/2021/03/1920-2018-Mercedes-Benz-AMG-C43.png",
-        "color": "Azul"
+        "color": "Branco"
       },
       "image3": {
         "url": "https://ik.imagekit.io/2ero5nzbxo2/FILES/generations/RTmfuR3UaESOtpsPgm14E74rJqU10GQv5pQAfhVt.png?ik-sdk-version=php-2.0.0",
-        "color": "Amarelo"
+        "color": "Cinza"
       },
       "price": "3742.81"
     }
