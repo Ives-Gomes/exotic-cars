@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BiDotsHorizontalRounded } from 'react-icons/bi';
-import { toast } from 'react-toastify';
+import Tooltip from 'react-power-tooltip';
 
 import { Car } from '@interfaces/cars/carsInterfaces';
 
@@ -26,9 +26,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ car }: CardProps) => {
   const navigate = useNavigate();
 
-  const moreButtonHandler = () => {
-    toast.info('Estamos trabalhando nessa funcionalidade e logo ela estará disponível!');
-  };
+  const [showTooltip, setShowTooltip] = useState(false);
 
   const detailHandler = () => {
     navigate('/details', { state: { car } });
@@ -42,7 +40,16 @@ const Card: React.FC<CardProps> = ({ car }: CardProps) => {
           <Subtitle>{car.model}</Subtitle>
         </div>
 
-        <DotsContent onMouseEnter={() => moreButtonHandler()}>
+        <DotsContent
+          onMouseOver={() => setShowTooltip(true)}
+          onMouseLeave={() => setShowTooltip(false)}
+        >
+          <Tooltip position="left start" show={showTooltip}>
+            <span>
+              Estamos trabalhando nessa funcionalidade e logo ela estará disponível!
+            </span>
+          </Tooltip>
+
           <BiDotsHorizontalRounded />
         </DotsContent>
       </TitleContent>

@@ -86,9 +86,20 @@ export const CarImage = styled.img`
   width: 50vw;
   height: 60vh;
 
+  animation: go-back 1s;
+
   @media (max-width: 425px) {
     width: 100%;
     height: 40vh;
+  }
+
+  @keyframes go-back {
+    0% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
   }
 `;
 

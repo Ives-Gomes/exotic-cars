@@ -49,6 +49,8 @@ export const Subtitle = styled.h2`
 `;
 
 export const DotsContent = styled.div`
+  position: relative;
+
   svg {
     width: 30px;
     height: 30px;
