@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 import axios, { AxiosRequestConfig } from 'axios';
 
 const api = axios.create({

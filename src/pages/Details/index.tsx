@@ -1,8 +1,3 @@
-/* eslint-disable no-useless-return */
-/* eslint-disable react/no-unstable-nested-components */
-/* eslint-disable react/jsx-props-no-spreading */
-/* eslint-disable operator-linebreak */
-
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
